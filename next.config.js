@@ -5,10 +5,10 @@ const nextConfig = {
     images: {
         unoptimized: true, // 为了支持静态导出
     },
-    // 确保API路由在静态导出中正常工作
-    trailingSlash: true,
+    // 静态导出配置
+    output: 'export',
     // 为Cloudflare Pages优化
-    target: 'serverless',
+    distDir: 'out',
 }
 
 module.exports = nextConfig 

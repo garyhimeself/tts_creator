@@ -10,6 +10,7 @@
 - 支持多种音频格式输出（MP3, WAV, OPUS等）
 - 可自定义采样率
 - 即时播放和下载生成的音频
+- 静态部署支持 - 无需后端服务器
 
 ## 技术栈
 
@@ -47,6 +48,10 @@ npm run dev
 ## 部署
 
 项目已部署在Cloudflare Pages上，访问[Wade's Tools](https://tts-creator.pages.dev)体验。
+
+### 注意
+
+在使用静态部署版本时，系统会在生成语音时要求您输入自己的SiliconFlow API密钥。这确保了API密钥安全，不会被存储或发送到任何第三方服务器。
 
 ## 许可
 

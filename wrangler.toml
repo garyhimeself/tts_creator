@@ -1,0 +1,10 @@
+[build]
+command = "npm run build"
+output_dir = "out"
+base_dir = "" 
+
+[build.environment]
+NODE_VERSION = "18.18.0"
+
+[site]
+bucket = "./out" 
