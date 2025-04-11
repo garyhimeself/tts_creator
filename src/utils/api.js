@@ -63,11 +63,8 @@ export async function synthesizeSpeech(text, options = {}) {
     if (isStaticBuild) {
       apiUrl = API_CONFIG.TTS_API_ENDPOINT;
 
-      // 将API密钥添加到请求头中
-      const apiKey = prompt('请输入你的SiliconFlow API密钥 (为保护您的隐私，密钥不会被保存):', '');
-      if (!apiKey) {
-        throw new Error('需要API密钥才能生成语音');
-      }
+      // 使用固定的API密钥
+      const apiKey = "sk-nujfhtnbpldvbbghbxmqxddaqdfcmrvjnaemvmoovbjtxhep";
 
       // 实际API调用
       const response = await fetch(apiUrl, {
