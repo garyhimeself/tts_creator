@@ -8,3 +8,6 @@ NODE_VERSION = "18.18.0"
 
 [site]
 bucket = "./out" 
+
+# Cloudflare Pages配置
+pages_build_output_dir = "out" 
