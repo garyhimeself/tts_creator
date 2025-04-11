@@ -1,0 +1,21 @@
+{
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "html": "HTML"
+    },
+    "tailwindCSS.emmetCompletions": true
+}
